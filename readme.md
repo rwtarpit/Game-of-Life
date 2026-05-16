@@ -49,4 +49,4 @@ Ensure you have Python 3 and `pygame` installed:
 
 ```bash
 pip install pygame
-python conway_life.py
+python life_game.py
