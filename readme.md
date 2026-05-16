@@ -1,4 +1,4 @@
-# Conway's Game of Life with Pygame
+# Conway's Game of Life 
 
 An interactive, visually sleek Python implementation of John Conway's famous cellular automaton, built using the `pygame` library.
 
@@ -25,14 +25,8 @@ Despite having only four foundational rules, the Game of Life is **Turing comple
 
 ## What This Code Does
 
-This specific Python implementation provides a fully interactive sandbox to explore Conway's Game of Life. Instead of generating a completely random or static board, it boots into a paused state allowing you to paint your own starting configurations.
+This Python implementation provides a fully interactive sandbox to explore Conway's Game of Life. Instead of generating a completely random or static board, it boots into a paused state allowing user to initiate starting configurations. By means of pygame, state of all cells are atomically updated over the iterations with variable defined rendering speed. 
 
-### Key Technical Features
-
-* **Interactive Grid Sandbox:** Using raw mouse event handling, you can left-click and drag to paint living cells, or right-click and drag to erase them dynamically.
-* **Toroidal Grid (Edge Wrapping):** The edges of the screen are structurally connected. If a pattern wanders off the right side of the screen, it loops back seamlessly onto the left side, allowing for infinite-feeling simulations on a finite display.
-* **Simultaneous Generation Updating:** To obey Conway's strict mathematics, the entire state of the board updates atomically. The script reads from a snapshot of the current frame and writes to a separate, blank buffer array before drawing to prevent calculation cascades.
-* **Framerate Pacing:** The game uses `pygame.time.Clock` capped at a smooth but readable speed, allowing you to observe the generations changing without the simulation flashing by too quickly.
 
 ---
 
