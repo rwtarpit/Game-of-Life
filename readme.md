@@ -4,6 +4,10 @@ An interactive, visually sleek Python implementation of John Conway's famous cel
 
 ---
 
+## Github Repository
+
+https://github.com/rwtarpit/Game-of-Life
+
 ## What is Conway's Game of Life?
 
 Created by British mathematician John Horton Conway in 1970, the **Game of Life** is a zero-player game. This means that its evolution is determined entirely by its initial state, requiring no further human interaction. 
@@ -20,6 +24,10 @@ Every cell interacts with its eight neighbors (the cells that are horizontally, 
 4.  **Reproduction:** Any dead cell with exactly three live neighbors becomes a live cell.
 
 Despite having only four foundational rules, the Game of Life is **Turing complete**—it is capable of complex emergent behaviors, local patterns that move like organisms (gliders), stable structures (still lifes), and oscillating engines.
+
+## Demo
+
+![Demo Video](assets/demo.mp4)
 
 ---
 
