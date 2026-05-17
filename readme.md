@@ -27,7 +27,9 @@ Despite having only four foundational rules, the Game of Life is **Turing comple
 
 ## Demo
 
-[Demo Video](assets/demo.mp4)
+
+https://github.com/user-attachments/assets/44a4ceb9-dc74-4a43-9ecb-98cd3095857c
+
 
 ---
 
